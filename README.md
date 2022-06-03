@@ -15,11 +15,9 @@ The target vector y is fixed to [10,-2] for simplicity but can be easily modifie
 
 ### W1-Matrix gradient:
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq2.png?raw=true" width="400" height="250"/>
-[Code for W1 Gradient](#gradient-calculations-for-weights-in-code)
 
 ### W2-Matrix gradient:
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq1.png?raw=true" width="600" height="450"/>
-[Code for W2 Gradient](#gradient-calculations-for-weights-in-code)
 
 
 ## Gradient Calculations for Weights in Code
