@@ -13,14 +13,14 @@ The target vector y is fixed to [10,-2] for simplicity but can be easily modifie
 
 ## Weight derivation
 
-<img src="https://render.githubusercontent.com/render/math?math={x}">
-
-xfun::embed_file("eq1.pdf")
-
+### W1-Matrix gradient:
+<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq1.png?raw=true" width="600" height="500"/>
 [Code for W1 Gradient](#gradient-calculations-for-weights-in-code)
 
-LATEX2 HERE
+### W2-Matrix gradient:
+<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq1.png?raw=true" width="600" height="500"/>
 [Code for W2 Gradient](#gradient-calculations-for-weights-in-code)
+
 
 ## Gradient Calculations for Weights in Code
 
