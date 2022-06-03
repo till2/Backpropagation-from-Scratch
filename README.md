@@ -13,7 +13,9 @@ The target vector y is fixed to [10,-2] for simplicity but can be easily modifie
 
 ## Weight derivation
 
-<img src="https://render.githubusercontent.com/render/math?math={\color{white} x = 2}">
+<img src="https://render.githubusercontent.com/render/math?math={x}">
+
+xfun::embed_file("eq1.pdf")
 
 [Code for W1 Gradient](#gradient-calculations-for-weights-in-code)
 
