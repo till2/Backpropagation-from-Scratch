@@ -1,6 +1,6 @@
 # Backpropagation from Scratch
 ## _This is a toy MLP with one hidden layer for backprop._
-The target vector y is fixed to [10,-2] for simplicity but can be easily modified to depend on the input vector x.
+The target vector y is fixed to an arbitrary value of [10,-2] for simplicity. It can be modified to depend on the input vector x for useful predictions.
 
 - ✨No torch or TF,  only numpy✨
 
