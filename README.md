@@ -21,7 +21,7 @@ with the Sigmoid activation 𝞹(z) = 1/(1+exp(-x)) and Loss = (1/2) * (y - o)²
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq_new.png?raw=true" width="400" height="250"/>
 
 ### W2-Matrix gradient:
-<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq1.png?raw=true" width="600" height="450"/>
+<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq1.png?raw=true" width="500" height="380"/>
 
 
 ## Gradient Calculations for Weights in Code
