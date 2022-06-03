@@ -12,7 +12,7 @@ The target vector y is fixed to an arbitrary value of [10,-2] for simplicity. It
 | Backprop from Scratch.pdf  | Rendered pdf |
 
 ## Computation-Graph
-<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/assets/ComputationGraph.png?raw=true" width="800" height="230"/>
+<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/assets/ComputationGraph.png?raw=true" width="800" height="210"/>
 with the Sigmoid activation 𝞹(z) = 1/(1+exp(-x)) and Loss = (1/2) * (y - o)²
 
 ## Weight derivation
