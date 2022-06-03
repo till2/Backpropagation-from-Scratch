@@ -11,6 +11,9 @@ The target vector y is fixed to [10,-2] for simplicity but can be easily modifie
 | Backprop from Scratch.ipynb | Notebook → Download and modify the code! :) |
 | Backprop from Scratch.pdf  | Rendered pdf |
 
+## Computation-Graph
+<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/ComputationGraph.png?raw=true" width="800" height="220"/>
+
 ## Weight derivation
 
 ### W1-Matrix gradient:
@@ -18,6 +21,8 @@ The target vector y is fixed to [10,-2] for simplicity but can be easily modifie
 
 ### W2-Matrix gradient:
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq1.png?raw=true" width="600" height="450"/>
+
+![Gradient Calculations Code](#gradient-calculations-for-weights-in-code)
 
 
 ## Gradient Calculations for Weights in Code
@@ -42,5 +47,4 @@ dL_dW1 = d * x.T
 ### Result:
 We can see that the backpropagation works and the correct gradients are calculated.
 The network is learning and decreasing it's loss:
-<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/LearningRates.png?raw=true" width="700" height="450"/>
-[Code for W2 Gradient](#gradient-calculations-for-weights-in-code)
+<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/LearningRates.png?raw=true" width="700" height="415"/>
