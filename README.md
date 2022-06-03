@@ -14,11 +14,11 @@ The target vector y is fixed to [10,-2] for simplicity but can be easily modifie
 ## Weight derivation
 
 ### W1-Matrix gradient:
-<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq1.png?raw=true" width="600" height="500"/>
+<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq2.png?raw=true" width="400" height="250"/>
 [Code for W1 Gradient](#gradient-calculations-for-weights-in-code)
 
 ### W2-Matrix gradient:
-<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq1.png?raw=true" width="600" height="500"/>
+<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/eq1.png?raw=true" width="600" height="450"/>
 [Code for W2 Gradient](#gradient-calculations-for-weights-in-code)
 
 
@@ -41,3 +41,8 @@ c = sigmoid(z) * (1 - sigmoid(z))
 d = b.T * c
 dL_dW1 = d * x.T
 ```
+### Result:
+We can see that the backpropagation works and the correct gradients are calculated.
+The network is learning and decreasing it's loss:
+<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/LearningRates.png?raw=true" width="700" height="450"/>
+[Code for W2 Gradient](#gradient-calculations-for-weights-in-code)
