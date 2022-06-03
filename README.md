@@ -13,7 +13,7 @@ The target vector y is fixed to [10,-2] for simplicity but can be easily modifie
 
 ## Computation-Graph
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/ComputationGraph.png?raw=true" width="800" height="220"/>
-with Loss = (1/2) * (y - o)²
+with the Sigmoid activation `𝞹(z) = 1/(1+e^(-x))` and `Loss = (1/2) * (y - o)²`.
 
 ## Weight derivation
 
