@@ -43,7 +43,7 @@ d = b.T * c
 dL_dW1 = d * x.T
 ```
 ### Result:
-We can see that the backpropagation works and the correct gradients are calculated.
+We can see that the backpropagation is working and the correct gradients are calculated.
 The network is learning and decreasing it's loss:
 
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/assets/LearningRates.png?raw=true" width="600" height="400"/>
