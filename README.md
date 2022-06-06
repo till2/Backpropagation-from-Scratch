@@ -9,7 +9,6 @@ The target vector y is fixed to an arbitrary value of [10,-2] for simplicity. It
 | File | Desc |
 | ------ | ------ |
 | Backprop from Scratch.ipynb | Notebook → Download and modify the code! :) |
-| Backprop from Scratch.pdf  | Rendered pdf |
 
 ## Computation-Graph
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/assets/ComputationGraph.png?raw=true" width="800" height="210"/>
