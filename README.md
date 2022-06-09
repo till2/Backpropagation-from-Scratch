@@ -2,13 +2,11 @@
 ## _This is a toy MLP with one hidden layer for backprop._
 The target vector y is fixed to an arbitrary value of [10,-2] for simplicity. It can be modified to depend on the input vector x for useful predictions.
 
-- ✨No torch or TF,  only numpy✨
-
 ## Files
 
 | File | Desc |
 | ------ | ------ |
-| Backprop from Scratch.ipynb | Notebook → Download and modify the code! :) |
+| ![Notebook](Backprop from Scratch.ipynb)| Notebook → Download and modify the code! :) |
 
 ## Computation-Graph
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/assets/ComputationGraph.png?raw=true" width="800" height="210"/>
