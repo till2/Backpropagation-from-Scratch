@@ -14,23 +14,17 @@ with the Sigmoid activation 𝞹(z) = 1/(1+exp(-x)) and Loss = (1/2) * (y - o)²
 
 ## Weight derivation
 
-### W2-Matrix gradient:
-<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/assets/eq_new.png?raw=true" width="400" height="250"/>
-
 ### W1-Matrix gradient:
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/assets/eq1.png?raw=true" width="500" height="370"/>
 
 
+### W2-Matrix gradient:
+<img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/assets/eq_new.png?raw=true" width="400" height="250"/>
+
 ## Gradient Calculations for Weights in Code
 
+
 ### Gradient of Weight Matrix W⁽¹⁾
-
-```py
-h = sigmoid(np.dot(W1, x))
-dL_dW2 = np.dot((-y + out), h.T)
-```
-
-### Gradient of Weight Matrix W⁽²⁾
 
 ```py
 z = np.dot(W1, x)
@@ -40,6 +34,13 @@ c = sigmoid(z) * (1 - sigmoid(z))
 d = b.T * c
 dL_dW1 = d * x.T
 ```
+### Gradient of Weight Matrix W⁽²⁾
+
+```py
+h = sigmoid(np.dot(W1, x))
+dL_dW2 = np.dot((-y + out), h.T)
+```
+
 ### Result:
 We can see that the backpropagation is working and the correct gradients are calculated.
 The network is learning and decreasing it's loss:
