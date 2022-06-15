@@ -14,10 +14,10 @@ with the Sigmoid activation 𝞹(z) = 1/(1+exp(-x)) and Loss = (1/2) * (y - o)²
 
 ## Weight derivation
 
-### W1-Matrix gradient:
+### W2-Matrix gradient:
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/assets/eq_new.png?raw=true" width="400" height="250"/>
 
-### W2-Matrix gradient:
+### W1-Matrix gradient:
 <img src="https://github.com/till2/Backpropagation-from-Scratch/blob/main/assets/eq1.png?raw=true" width="500" height="370"/>
 
 
